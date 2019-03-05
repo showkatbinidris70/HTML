@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function validateEmail(){
+                var x=document.forms["myForm"]["email"].value;
+                var atpos=x.indexOf("@");
+                var dotpos=x.lastIndexOf(".");
+                if(atpos<1 || dotpos<atpos+2 || dotpos+2>x.length){
+                    alert("Not a valid e-mail address");
+                    return false;
+                }else{
+                    prompt("valid an email address");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myForm" action="#" onsubmit="validateEmail" method="post">
+            Email:<input type="text" name="email">
+            <input type="submit" value="send">
+        </form>
+    </body>
+</html>
