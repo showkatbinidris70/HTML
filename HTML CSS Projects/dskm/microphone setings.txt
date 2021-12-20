@@ -1,0 +1,15 @@
+
+yellow color jack for microphone (sound goes)
+have to set as (mic in)
+-->> open sound setting-->Input-->Microphone(Realtek(R)audio) sound control pannel-->
+	recording->stereo mix->set default->default communicatio device
+
+middle jack--> black color jack for headphone (sound comes) -->> set in jack
+have to set as (headphone)
+
+from right side, last jack set for earphone, set a (headphone)
+
+middle jack--> set  sound box, set as (headphone)
+
+
+

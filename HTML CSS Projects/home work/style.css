@@ -1,0 +1,153 @@
+*{
+	background-color:#EEEEEE;
+	margin:0 auto;
+}
+.row{
+	margin-top:10px;
+	height:550px;
+	width:65%;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding-top:10px;
+}
+.header{
+	height:140px;
+	width:96%;
+	border-radius:10px;
+}
+.logo{
+	height:140px;
+	width:25%;
+	float:left;
+	border-radius:10px 0px 0px 10px;
+	background-color:#EEEEEE;
+}
+.logo img{
+	margin:25px;
+}
+.banner{
+	height:140px;
+	width:75%;
+	float:right;
+	border-radius:0px 10px 10px 0px;
+}
+.banner1{
+	height:40px;
+	width:100%;
+	background-color:#007814;
+	float:left;
+	border-radius:0px 10px 0px 0px;
+	display:inline-block;
+}
+.banner1 h2{
+	height:40px;
+	width:48.5%;
+	background-color:#007814;
+	float:left;
+	margin-top:10px;
+	color:#82E17D;
+	margin-left:5px;
+}
+
+.banner1 img{
+	height:40px;
+	width:50%;
+	float:right;
+}
+.banner2{
+	margin-top:1px;
+	height:67px;
+	width:100%;
+	background-color:#007814;
+	display:inline-block;
+}
+.banner2 h2{
+	margin-left:5px;
+	margin-top:5px;
+	header:40px;
+	width:98.5%;
+	background-color:#007814;
+	color:#FFF;
+}
+.banner3{
+	height:30px;
+	width:100%;
+	background-color:#68AF63;
+	display:inline-block;
+	float:right;
+	border-radius:0px 0px 5px 0px;
+}
+.banner3 p{
+	height:20px;
+	width:98.5%;
+	text-align:right;
+	margin-top:10px;
+	color:#FFF;
+	margin-right:10px;
+	background-color:#68AF63;
+	font-size:12px;
+}
+.main-section{
+	margin-top:20px;
+	height:270px;
+	width:70%;
+	border:2px solid #C0C0C0;
+	background-color:#FFF;
+	margin-bottom:30px;
+}
+#form{
+	margin-top:10px;
+	background-color:#FFF;
+	margin-left:70px;
+	margin-bottom:50px;
+}
+#form label{
+	background-color:#FFF;
+}
+input{
+	height:20px;
+	width:180px;
+	border-radius:5px;
+}
+button{
+	height:20px;
+	width:60px;
+	text-align:right;
+	border-radius:2px;
+	margin-left:220px;
+	
+}
+.footer{
+	height:60px;
+	width:96%;
+	background-color:#F2F2F2;
+	border-radius:0px 0px 5px 5px; 
+}
+.footer1{
+	float:left;
+	width:60%;
+	display:inline-block;
+}
+.footer1 p{
+	font-size:12px;
+	color:gray;
+	margin-top:25px;
+	margin-left:5px;
+}
+.footer1 span{
+	float:right;
+	
+}
+.footer2{
+	float:right;
+	width:40%;
+	display:inline-block;
+}
+.footer2 img{
+	margin-top:5px;
+	margin-right:10px;
+	height:50px;
+	width:130px;
+	float:right;
+}

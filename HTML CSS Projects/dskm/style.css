@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-color{
+	background-color:#202C45;
+}
+
+.top-header{
+	background-color:#CFC66E;
+	height: 30px;
+}
+.logo-bg-color{
+	background-color: #0F3F55;
+}
+
+.nav-bar-height{
+	height: 45px !important;
+}
+.main-content-bg-color{
+	background-color: #DBECFD;
+}
+.bottom-fotter{
+	background-color:#CFC66E;
+	height: 30px;
+}
+.fotter-bg-color{
+	background-color: #0F3F55;
+}
